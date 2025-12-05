@@ -1,0 +1,64 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Carte du voyage - undefined</title>
+  <style>
+    body { margin: 0; padding: 0; font-family: Arial, sans-serif; }
+    #map { height: 100vh; width: 100%; }
+    .info-window { max-width: 250px; font-family: Arial, sans-serif; }
+    .info-window img { width: 100%; height: auto; border-radius: 8px; margin-bottom: 10px; }
+    .info-window h3 { margin: 0 0 5px 0; font-size: 16px; color: #333; }
+    .info-window p { margin: 5px 0; font-size: 14px; color: #666; }
+    .info-window a { color: #1a73e8; text-decoration: none; }
+    .info-window a:hover { text-decoration: underline; }
+  </style>
+</head>
+<body>
+  <div id="map"></div>
+  
+  <script>
+    function initMap() {
+      const center = { lat: 35.63340844705882, lng: 139.6809980117647 };
+      const map = new google.maps.Map(document.getElementById('map'), {
+        zoom: 10,
+        center: center
+      });
+      
+      const markers = [{"lat":35.6938253,"lng":139.7033559,"name":"Tokyo (Shinjuku)","jour":1,"titre":"Arrivée et premières lumières de Shinjuku","streetViewUrl":"https://maps.googleapis.com/maps/api/streetview?size=600x400&location=35.6938253,139.7033559&key=AIzaSyBXsVY9wZUc8Q9VnK5oYDc8bBNvzvfDH4Q","streetViewLinkUrl":"https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=35.6938253,139.7033559","aiImageUrl":"jour1.jpg"},{"lat":35.6619707,"lng":139.703795,"name":"Tokyo (Shibuya)","jour":3,"titre":"L'énergie vibrante de Shibuya","streetViewUrl":"https://maps.googleapis.com/maps/api/streetview?size=600x400&location=35.6619707,139.703795&key=AIzaSyBXsVY9wZUc8Q9VnK5oYDc8bBNvzvfDH4Q","streetViewLinkUrl":"https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=35.6619707,139.703795","aiImageUrl":"jour3.jpg"},{"lat":35.6699682,"lng":139.709008,"name":"Tokyo (Harajuku)","jour":4,"titre":"Tradition et excentricité à Harajuku","streetViewUrl":"https://maps.googleapis.com/maps/api/streetview?size=600x400&location=35.6699682,139.709008&key=AIzaSyBXsVY9wZUc8Q9VnK5oYDc8bBNvzvfDH4Q","streetViewLinkUrl":"https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=35.6699682,139.709008","aiImageUrl":"jour4.jpg"},{"lat":35.7185858,"lng":139.7958849,"name":"Tokyo (Asakusa)","jour":5,"titre":"L'âme historique d'Asakusa","streetViewUrl":"https://maps.googleapis.com/maps/api/streetview?size=600x400&location=35.7185858,139.7958849&key=AIzaSyBXsVY9wZUc8Q9VnK5oYDc8bBNvzvfDH4Q","streetViewLinkUrl":"https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=35.7185858,139.7958849","aiImageUrl":"jour5.jpg"},{"lat":35.7087296,"lng":139.7741538,"name":"Tokyo (Ueno)","jour":6,"titre":"Culture et détente à Ueno","streetViewUrl":"https://maps.googleapis.com/maps/api/streetview?size=600x400&location=35.7087296,139.7741538&key=AIzaSyBXsVY9wZUc8Q9VnK5oYDc8bBNvzvfDH4Q","streetViewLinkUrl":"https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=35.7087296,139.7741538","aiImageUrl":"jour6.jpg"},{"lat":35.7250389,"lng":139.7690417,"name":"Tokyo (Yanaka)","jour":7,"titre":"Yanaka : Un voyage dans le temps","streetViewUrl":"https://maps.googleapis.com/maps/api/streetview?size=600x400&location=35.7250389,139.7690417&key=AIzaSyBXsVY9wZUc8Q9VnK5oYDc8bBNvzvfDH4Q","streetViewLinkUrl":"https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=35.7250389,139.7690417","aiImageUrl":"jour7.jpg"},{"lat":35.6712228,"lng":139.7664859,"name":"Tokyo (Chiyoda/Ginza)","jour":8,"titre":"Élégance impériale et luxe à Ginza","streetViewUrl":"https://maps.googleapis.com/maps/api/streetview?size=600x400&location=35.6712228,139.7664859&key=AIzaSyBXsVY9wZUc8Q9VnK5oYDc8bBNvzvfDH4Q","streetViewLinkUrl":"https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=35.6712228,139.7664859","aiImageUrl":"jour8.jpg"},{"lat":35.6996473,"lng":139.7713703,"name":"Tokyo (Akihabara)","jour":9,"titre":"Akihabara : Le paradis de l'électronique et de la pop culture","streetViewUrl":"https://maps.googleapis.com/maps/api/streetview?size=600x400&location=35.6996473,139.7713703&key=AIzaSyBXsVY9wZUc8Q9VnK5oYDc8bBNvzvfDH4Q","streetViewLinkUrl":"https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=35.6996473,139.7713703","aiImageUrl":"jour9.jpg"},{"lat":35.62058340000001,"lng":139.7805445,"name":"Tokyo (Odaiba)","jour":10,"titre":"Odaiba : Futurisme et divertissement sur l'île artificielle","streetViewUrl":"https://maps.googleapis.com/maps/api/streetview?size=600x400&location=35.62058340000001,139.7805445&key=AIzaSyBXsVY9wZUc8Q9VnK5oYDc8bBNvzvfDH4Q","streetViewLinkUrl":"https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=35.62058340000001,139.7805445","aiImageUrl":"jour10.jpg"},{"lat":35.6640869,"lng":139.7715977,"name":"Tokyo (Tsukiji/Shiodome)","jour":11,"titre":"Saveurs et sérénité au marché et jardin","streetViewUrl":"https://maps.googleapis.com/maps/api/streetview?size=600x400&location=35.6640869,139.7715977&key=AIzaSyBXsVY9wZUc8Q9VnK5oYDc8bBNvzvfDH4Q","streetViewLinkUrl":"https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=35.6640869,139.7715977","aiImageUrl":"jour11.jpg"},{"lat":35.665786,"lng":139.6698627,"name":"Tokyo (Shimokitazawa)","jour":12,"titre":"Shimokitazawa : L'esprit bohème de Tokyo","streetViewUrl":"https://maps.googleapis.com/maps/api/streetview?size=600x400&location=35.665786,139.6698627&key=AIzaSyBXsVY9wZUc8Q9VnK5oYDc8bBNvzvfDH4Q","streetViewLinkUrl":"https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=35.665786,139.6698627","aiImageUrl":"jour12.jpg"},{"lat":35.6833484,"lng":139.5598366,"name":"Tokyo (Mitaka)","jour":13,"titre":"Magie Ghibli et nature à Mitaka","streetViewUrl":"https://maps.googleapis.com/maps/api/streetview?size=600x400&location=35.6833484,139.5598366&key=AIzaSyBXsVY9wZUc8Q9VnK5oYDc8bBNvzvfDH4Q","streetViewLinkUrl":"https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=35.6833484,139.5598366","aiImageUrl":"jour13.jpg"},{"lat":35.3192128,"lng":139.5466731,"name":"Kamakura (journée)","jour":14,"titre":"Kamakura : Évasion spirituelle et historique","streetViewUrl":"https://maps.googleapis.com/maps/api/streetview?size=600x400&location=35.3192128,139.5466731&key=AIzaSyBXsVY9wZUc8Q9VnK5oYDc8bBNvzvfDH4Q","streetViewLinkUrl":"https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=35.3192128,139.5466731","aiImageUrl":"jour14.jpg"},{"lat":35.2337691,"lng":139.1088454,"name":"Hakone (journée)","jour":15,"titre":"Hakone : Nature, art et onsen","streetViewUrl":"https://maps.googleapis.com/maps/api/streetview?size=600x400&location=35.2337691,139.1088454&key=AIzaSyBXsVY9wZUc8Q9VnK5oYDc8bBNvzvfDH4Q","streetViewLinkUrl":"https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=35.2337691,139.1088454","aiImageUrl":"jour15.jpg"},{"lat":35.6764225,"lng":139.650027,"name":"Tokyo","jour":16,"titre":"Journée libre et découvertes personnelles","streetViewUrl":"https://maps.googleapis.com/maps/api/streetview?size=600x400&location=35.6764225,139.650027&key=AIzaSyBXsVY9wZUc8Q9VnK5oYDc8bBNvzvfDH4Q","streetViewLinkUrl":"https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=35.6764225,139.650027","aiImageUrl":"jour16.jpg"},{"lat":35.6937752,"lng":139.7926887,"name":"Tokyo (Ryogoku)","jour":17,"titre":"Ryogoku : Sur les traces des sumos et de l'art","streetViewUrl":"https://maps.googleapis.com/maps/api/streetview?size=600x400&location=35.6937752,139.7926887&key=AIzaSyBXsVY9wZUc8Q9VnK5oYDc8bBNvzvfDH4Q","streetViewLinkUrl":"https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=35.6937752,139.7926887","aiImageUrl":"jour17.jpg"},{"lat":35.6619707,"lng":139.703795,"name":"Tokyo (Shinjuku/Shibuya)","jour":18,"titre":"Nuits lumineuses et divertissement","streetViewUrl":"https://maps.googleapis.com/maps/api/streetview?size=600x400&location=35.6619707,139.703795&key=AIzaSyBXsVY9wZUc8Q9VnK5oYDc8bBNvzvfDH4Q","streetViewLinkUrl":"https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=35.6619707,139.703795","aiImageUrl":"jour18.jpg"}];
+      
+      markers.forEach((markerData) => {
+        const marker = new google.maps.Marker({
+          position: { lat: markerData.lat, lng: markerData.lng },
+          map: map,
+          title: markerData.name,
+          label: String(markerData.jour)
+        });
+        
+        const contentString = `
+          <div class="info-window">
+            <img src="${markerData.streetViewUrl}" alt="Street View de ${markerData.name}" />
+            <h3>Jour ${markerData.jour}</h3>
+            <p><strong>${markerData.name}</strong></p>
+            <p><a href="${markerData.streetViewLinkUrl}" target="_blank" rel="noopener noreferrer"><strong>${markerData.titre}</strong></a></p>
+          </div>
+        `;
+        
+        const infoWindow = new google.maps.InfoWindow({
+          content: contentString
+        });
+        
+        marker.addListener('click', () => {
+          infoWindow.open(map, marker);
+        });
+      });
+    }
+  </script>
+  
+  <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBXsVY9wZUc8Q9VnK5oYDc8bBNvzvfDH4Q&callback=initMap">
+  </script>
+</body>
+</html>
