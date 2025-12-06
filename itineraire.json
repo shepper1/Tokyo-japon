@@ -1,0 +1,536 @@
+{
+  "pays": "Japon",
+  "drapeau": "🇯🇵",
+  "symbole": "🌸",
+  "titre": "Tokyo : Éclat Urbain et Traditions Millénaires",
+  "budget_total": "5350€",
+  "duree": "19 jours",
+  "date_debut": "2025-12-06",
+  "date_fin": "2025-12-24",
+  "temps_vol": "Environ 12-14h (vol direct ou avec escale)",
+  "jours": [
+    {
+      "jour": 1,
+      "symbole": "✈️",
+      "titre": "Départ de Paris vers Tokyo",
+      "legende": "Votre aventure japonaise débute aujourd'hui avec un vol long-courrier depuis Paris. Préparez-vous à une immersion totale dans une culture fascinante et un décalage horaire significatif. Profitez du vol pour vous reposer et anticiper les merveilles de Tokyo, une mégalopole aux mille facettes.",
+      "lieu": "Vol Paris-Tokyo",
+      "activites": [
+        "✈️ <strong>Vol Paris-Tokyo</strong>: Détendez-vous et préparez-vous mentalement au décalage horaire de 8 heures. Le voyage est long, mais l'excitation de l'arrivée vous portera vers une destination unique."
+      ],
+      "illustration": "jour1.jpg",
+      "encarts": [
+        {
+          "symbole": "⏳",
+          "titre": "Décalage Horaire",
+          "texte": "Tokyo a 8 heures d'avance sur Paris en décembre. Prévoyez de dormir pendant le vol pour minimiser le jet lag et profiter pleinement dès votre arrivée."
+        }
+      ]
+    },
+    {
+      "jour": 2,
+      "symbole": "🛬",
+      "titre": "Arrivée et Premiers Pas à Tokyo",
+      "legende": "Après un long vol, atterrissez à Tokyo, une mégalopole vibrante. Prenez le temps de vous installer, de vous acclimater et de faire une première balade douce pour effleurer l'ambiance unique de la ville. Laissez-vous imprégner par l'énergie ambiante et les premières découvertes.",
+      "lieu": "Tokyo",
+      "activites": [
+        "🛬 <strong>Arrivée à Narita/Haneda et transfert</strong>: Après les formalités douanières, prenez le train ou le bus pour rejoindre votre hôtel au cœur de Tokyo. C'est votre première immersion dans l'efficacité et la ponctualité japonaises.",
+        "🛏️ <strong>Installation et balade de quartier</strong>: Déposez vos bagages et explorez les environs immédiats de votre hébergement. Une promenade légère est idéale pour se dégourdir les jambes et repérer les premières commodités, comme les konbini."
+      ],
+      "illustration": "jour2.jpg",
+      "encarts": [
+        {
+          "symbole": "🚆",
+          "titre": "Transfert Aéroport",
+          "texte": "Depuis Narita, le Narita Express (N'EX) ou le Keisei Skyliner sont rapides. Depuis Haneda, le Keikyu Line ou Tokyo Monorail sont efficaces pour le centre-ville de Tokyo."
+        },
+        {
+          "symbole": "💡",
+          "titre": "Premiers pas",
+          "texte": "N'hésitez pas à vous perdre un peu dans les rues adjacentes à votre hôtel. C'est souvent là que l'on découvre les petits restaurants authentiques et l'ambiance locale."
+        }
+      ]
+    },
+    {
+      "jour": 3,
+      "symbole": "🏙️",
+      "titre": "Shinjuku : Vertige Urbain et Sérénité",
+      "legende": "Plongez au cœur de Shinjuku, le quartier des gratte-ciel et de l'effervescence nocturne. Contrastez l'architecture futuriste avec la quiétude d'un jardin traditionnel, puis laissez-vous éblouir par les lumières de la ville depuis les hauteurs. Une journée entre modernité et nature, typiquement tokyoïte.",
+      "lieu": "Shinjuku, Tokyo",
+      "activites": [
+        "🌳 <strong>Jardin National de Shinjuku Gyoen</strong>: Évadez-vous dans ce havre de paix, mélangeant jardins japonais, français et anglais. Un contraste saisissant avec l'agitation urbaine environnante, parfait pour une promenade matinale.",
+        "🏢 <strong>Observatoire du Gouvernement Métropolitain de Tokyo</strong>: Montez gratuitement au 45ème étage pour une vue panoramique époustouflante sur Tokyo. Par temps clair, le Mont Fuji se dessine à l'horizon, offrant un spectacle inoubliable.",
+        "🏮 <strong>Exploration de Shinjuku la nuit</strong>: Laissez-vous captiver par les néons de Kabukicho, le quartier animé des divertissements, ou découvrez les ruelles étroites et authentiques d'Omoide Yokocho, 'Memory Lane', pour un dîner typique."
+      ],
+      "illustration": "jour3.jpg",
+      "encarts": [
+        {
+          "symbole": "💡",
+          "titre": "Conseil Photo",
+          "texte": "Pour les meilleures photos du Mont Fuji depuis l'observatoire, privilégiez le matin par temps clair. L'éclairage est souvent idéal et la visibilité maximale."
+        },
+        {
+          "symbole": "🚶‍♂️",
+          "titre": "À Pied",
+          "texte": "Shinjuku est vaste. Prévoyez de bonnes chaussures et n'hésitez pas à utiliser le métro pour les plus longues distances entre les points d'intérêt."
+        }
+      ]
+    },
+    {
+      "jour": 4,
+      "symbole": "🛍️",
+      "titre": "Shibuya & Harajuku : Pulsations Jeunesse et Mode",
+      "legende": "Découvrez l'énergie contagieuse de Shibuya, avec son célèbre carrefour, avant de plonger dans l'univers excentrique de Harajuku. Entre mode avant-gardiste, culture kawaii et temples sereins, cette journée vous offre un aperçu des multiples facettes de la jeunesse tokyoïte. Une immersion dans les tendances.",
+      "lieu": "Shibuya & Harajuku, Tokyo",
+      "activites": [
+        "🚦 <strong>Le Carrefour de Shibuya et Hachiko</strong>: Traversez le carrefour le plus fréquenté du monde, un spectacle hypnotisant. Ne manquez pas la statue du fidèle chien Hachiko, un point de rencontre emblématique.",
+        "⛩️ <strong>Sanctuaire Meiji Jingu</strong>: Échappez à l'agitation urbaine dans ce sanctuaire shintoïste dédié à l'Empereur Meiji et son impératrice. Une allée bordée d'arbres mène à un havre de paix et de spiritualité au cœur de la ville.",
+        "🎀 <strong>Takeshita Dori à Harajuku</strong>: Explorez cette rue emblématique de la mode adolescente japonaise, avec ses boutiques excentriques, ses cafés thématiques et son ambiance colorée. L'endroit idéal pour observer les dernières tendances."
+      ],
+      "illustration": "jour4.jpg",
+      "encarts": [
+        {
+          "symbole": "📸",
+          "titre": "Meilleur spot photo",
+          "texte": "Pour une vue imprenable sur le carrefour de Shibuya, montez au Starbucks du Tsutaya Building ou au Shibuya Sky pour une perspective aérienne unique."
+        },
+        {
+          "symbole": "🛍️",
+          "titre": "Shopping Insolite",
+          "texte": "Harajuku est le paradis des articles uniques et des souvenirs originaux. Osez explorer les petites boutiques pour des trouvailles inattendues et des pièces rares."
+        }
+      ]
+    },
+    {
+      "jour": 5,
+      "symbole": "🏮",
+      "titre": "Asakusa : Plongée dans le Tokyo d'Antan",
+      "legende": "Remontez le temps à Asakusa, le quartier le plus traditionnel de Tokyo. Flânez dans les allées marchandes menant au plus ancien temple de la ville, imprégnez-vous de l'atmosphère d'un Japon révolu. Terminez la journée par une perspective différente sur la ville depuis la rivière Sumida, offrant un contraste saisissant.",
+      "lieu": "Asakusa, Tokyo",
+      "activites": [
+        "🏯 <strong>Temple Senso-ji et Nakamise-dori</strong>: Traversez la porte Kaminarimon et parcourez Nakamise-dori, une rue commerçante animée, avant d'atteindre le majestueux temple Senso-ji. C'est une immersion garantie dans l'histoire et la culture bouddhiste de Tokyo.",
+        "🚢 <strong>Croisière sur la rivière Sumida</strong>: Profitez d'une croisière relaxante sur la rivière Sumida, offrant des vues uniques sur les gratte-ciel de Tokyo, la Tokyo Skytree et les ponts emblématiques. Une pause bienvenue après l'agitation du temple, avec des perspectives différentes sur la ville."
+      ],
+      "illustration": "jour5.jpg",
+      "encarts": [
+        {
+          "symbole": "🎁",
+          "titre": "Souvenirs Traditionnels",
+          "texte": "Nakamise-dori est l'endroit idéal pour acheter des souvenirs traditionnels japonais, des kimonos aux éventails en passant par les douceurs locales, souvent fabriqués artisanalement."
+        },
+        {
+          "symbole": "🌅",
+          "titre": "Meilleur moment",
+          "texte": "Visitez le Senso-ji tôt le matin pour éviter la foule et profiter d'une atmosphère plus sereine, avant l'arrivée des groupes de touristes."
+        }
+      ]
+    },
+    {
+      "jour": 6,
+      "symbole": "🎨",
+      "titre": "Ueno & Akihabara : Culture et Électronique",
+      "legende": "Débutez votre journée par une immersion culturelle au parc d'Ueno, abritant musées et sanctuaires. Ensuite, plongez dans l'univers futuriste et otaku d'Akihabara, le quartier de l'électronique et de la culture populaire japonaise. Deux ambiances diamétralement opposées pour une journée riche en découvertes et contrastes.",
+      "lieu": "Ueno & Akihabara, Tokyo",
+      "activites": [
+        "🏛️ <strong>Parc d'Ueno et Musées</strong>: Explorez le vaste parc d'Ueno, qui abrite plusieurs musées de renommée mondiale comme le Musée National de Tokyo et le Musée National de la Nature et des Sciences. Choisissez-en un ou deux selon vos intérêts pour une matinée culturelle.",
+        "🎮 <strong>Akihabara Electric Town</strong>: Plongez dans le paradis des jeux vidéo, mangas, animes et gadgets électroniques. Flânez dans les magasins à plusieurs étages et découvrez la culture otaku à son apogée, avec ses salles d'arcade et ses boutiques spécialisées."
+      ],
+      "illustration": "jour6.jpg",
+      "encarts": [
+        {
+          "symbole": "🚶‍♀️",
+          "titre": "Conseil de visite",
+          "texte": "Le parc d'Ueno est grand. Concentrez-vous sur un ou deux musées pour ne pas vous épuiser et profiter pleinement de chaque visite, plutôt que de tout survoler."
+        },
+        {
+          "symbole": "💡",
+          "titre": "Expérience unique",
+          "texte": "À Akihabara, n'hésitez pas à visiter un 'maid café' pour une expérience amusante et typiquement japonaise, même si c'est un peu décalé et très théâtral."
+        }
+      ]
+    },
+    {
+      "jour": 7,
+      "symbole": "🍣",
+      "titre": "Ginza & Tsukiji : Luxe et Saveurs",
+      "legende": "Commencez votre journée par l'effervescence du marché extérieur de Tsukiji, où les saveurs marines réveilleront vos sens. Ensuite, basculez dans l'élégance et le luxe de Ginza, le quartier chic de Tokyo, pour une après-midi de shopping haut de gamme et d'architecture raffinée. Un contraste gourmand et glamour, entre tradition et modernité.",
+      "lieu": "Ginza & Tsukiji, Tokyo",
+      "activites": [
+        "🐟 <strong>Tsukiji Outer Market</strong>: Explorez les allées animées de l'ancien marché aux poissons, désormais un paradis culinaire. Dégustez des sushis frais, des brochettes de fruits de mer et autres spécialités locales pour un petit-déjeuner mémorable et authentique.",
+        "💎 <strong>Shopping et architecture à Ginza</strong>: Flânez dans les rues de Ginza, bordées de boutiques de luxe, de grands magasins emblématiques et d'architectures modernes impressionnantes. Ne manquez pas le bâtiment du Kabuki-za, même si vous n'assistez pas à un spectacle, pour son design unique."
+      ],
+      "illustration": "jour7.jpg",
+      "encarts": [
+        {
+          "symbole": "🍽️",
+          "titre": "Dégustation",
+          "texte": "À Tsukiji, goûtez aux 'tamagoyaki' (omelette japonaise) et aux 'uni' (oursin) frais, des incontournables du marché. Les stands proposent souvent des échantillons."
+        },
+        {
+          "symbole": "🚶‍♂️",
+          "titre": "Rue piétonne",
+          "texte": "Le week-end, la rue principale de Ginza, Chuo Dori, est piétonne de midi à 17h (ou 18h en été), offrant une expérience de flânerie plus agréable."
+        }
+      ]
+    },
+    {
+      "jour": 8,
+      "symbole": "🌉",
+      "titre": "Odaiba : Futurisme et Panoramas",
+      "legende": "Évadez-vous sur l'île artificielle d'Odaiba, un quartier futuriste offrant des vues spectaculaires sur la baie de Tokyo. Entre musées interactifs, centres commerciaux innovants et réplique de la Statue de la Liberté, cette journée est dédiée à la modernité et au divertissement. Idéal pour une ambiance décontractée et des panoramas uniques.",
+      "lieu": "Odaiba, Tokyo",
+      "activites": [
+        "🌈 <strong>Traversée du Rainbow Bridge et Statue de la Liberté</strong>: Rejoignez Odaiba en monorail Yurikamome pour une vue imprenable sur le Rainbow Bridge et la skyline de Tokyo. Admirez la réplique de la Statue de la Liberté, avec la baie en toile de fond.",
+        "🤖 <strong>Divertissements et Shopping</strong>: Explorez les centres commerciaux comme DiverCity Tokyo Plaza, célèbre pour sa statue Gundam géante, ou le VenusFort avec son architecture de style européen. Le musée des sciences Miraikan offre une plongée fascinante dans la technologie."
+      ],
+      "illustration": "jour8.jpg",
+      "encarts": [
+        {
+          "symbole": "🌅",
+          "titre": "Coucher de soleil",
+          "texte": "Odaiba est l'un des meilleurs endroits pour admirer le coucher de soleil sur la baie de Tokyo, avec le Rainbow Bridge illuminé. Les couleurs sont souvent spectaculaires."
+        },
+        {
+          "symbole": "💡",
+          "titre": "Transport original",
+          "texte": "Le monorail Yurikamome est une expérience en soi, sans conducteur, offrant des vues panoramiques tout au long du trajet et une sensation futuriste."
+        }
+      ]
+    },
+    {
+      "jour": 9,
+      "symbole": "👑",
+      "titre": "Palais Impérial et Élégance de Marunouchi",
+      "legende": "Découvrez le cœur historique et politique de Tokyo avec le Palais Impérial. Promenez-vous dans ses jardins paisibles, puis explorez le quartier chic de Marunouchi, où l'architecture moderne côtoie les élégantes boutiques. Une journée entre histoire, nature et sophistication urbaine, au cœur de la capitale.",
+      "lieu": "Chiyoda, Tokyo",
+      "activites": [
+        "🌳 <strong>Jardins Est du Palais Impérial</strong>: Visitez les jardins ouverts au public de l'ancien château d'Edo, aujourd'hui résidence de l'Empereur. C'est un lieu de sérénité, riche en histoire et en verdure, offrant une belle échappée au cœur de la ville.",
+        "🛍️ <strong>Marunouchi et la gare de Tokyo</strong>: Flânez dans le quartier d'affaires de Marunouchi, connu pour ses bâtiments élégants, ses boutiques de luxe et ses restaurants raffinés. Admirez l'architecture majestueuse de la gare de Tokyo, un joyau historique."
+      ],
+      "illustration": "jour9.jpg",
+      "encarts": [
+        {
+          "symbole": "ℹ️",
+          "titre": "Accès au Palais",
+          "texte": "Seuls les Jardins Est sont librement accessibles. Des visites guidées du Palais Impérial sont possibles sur réservation préalable auprès de l'Agence de la Maison Impériale."
+        },
+        {
+          "symbole": "📸",
+          "titre": "Spot photo",
+          "texte": "Le pont Nijubashi, devant l'entrée principale du Palais Impérial, offre une vue emblématique et est un excellent endroit pour les photos, surtout avec les douves."
+        }
+      ]
+    },
+    {
+      "jour": 10,
+      "symbole": "♨️",
+      "titre": "Hakone : Nature, Art et Vues sur le Fuji",
+      "legende": "Échappez à l'agitation de Tokyo pour une journée de détente et de paysages magnifiques à Hakone. Profitez des sources chaudes, des vues imprenables sur le Mont Fuji et d'une immersion dans l'art en plein air. Une bouffée d'air frais au cœur de la nature japonaise, à seulement quelques heures de la capitale.",
+      "lieu": "Hakone",
+      "activites": [
+        "🚢 <strong>Croisière sur le lac Ashi et vue sur le Mont Fuji</strong>: Embarquez sur un bateau pirate pour une croisière pittoresque sur le lac Ashi. Par temps clair, vous serez récompensé par des vues spectaculaires sur le Mont Fuji se reflétant dans l'eau.",
+        "🎨 <strong>Musée en plein air de Hakone</strong>: Explorez ce musée unique qui fusionne l'art et la nature, présentant des sculptures modernes dans un cadre paysager magnifique. C'est une expérience culturelle apaisante et inspirante.",
+        "♨️ <strong>Téléphérique d'Owakudani et sources chaudes</strong>: Prenez le téléphérique jusqu'à Owakudani, la \"Grande Vallée Bouillante\", pour observer l'activité volcanique et déguster les célèbres œufs noirs cuits dans les sources chaudes, censés prolonger la vie."
+      ],
+      "illustration": "jour10.jpg",
+      "encarts": [
+        {
+          "symbole": "🚆",
+          "titre": "Transport",
+          "texte": "Le Hakone Free Pass est fortement recommandé pour cette journée, il couvre tous les transports locaux (train, bus, bateau, téléphérique) et offre une grande flexibilité."
+        },
+        {
+          "symbole": "⚠️",
+          "titre": "Météo",
+          "texte": "La visibilité du Mont Fuji dépend grandement de la météo. Les matins d'hiver sont souvent les plus clairs, mais la chance joue un rôle."
+        }
+      ]
+    },
+    {
+      "jour": 11,
+      "symbole": "🐈",
+      "titre": "Retour à Tokyo et Charme de Yanaka",
+      "legende": "Après la sérénité de Hakone, retournez à Tokyo et plongez dans l'atmosphère nostalgique de Yanaka. Ce quartier préservé offre un aperçu du 'vieux Tokyo' avec ses temples, ses ruelles calmes et ses chats errants. Une journée douce pour se réacclimater à la capitale, loin de l'agitation des quartiers modernes.",
+      "lieu": "Tokyo (Yanaka)",
+      "activites": [
+        "🚆 <strong>Retour de Hakone à Tokyo</strong>: Profitez du trajet en train pour vous reposer et admirer les paysages. Le retour à la capitale marque une transition douce vers l'effervescence urbaine, mais avec une approche plus calme.",
+        "🚶‍♀️ <strong>Balade dans le quartier de Yanaka</strong>: Explorez Yanaka Ginza, une rue commerçante rétro, et le cimetière de Yanaka, un lieu paisible avec de nombreux temples anciens. C'est un quartier où le temps semble s'être arrêté, idéal pour une promenade relaxante."
+      ],
+      "illustration": "jour11.jpg",
+      "encarts": [
+        {
+          "symbole": "🍜",
+          "titre": "Spécialités locales",
+          "texte": "À Yanaka Ginza, goûtez aux 'menchi katsu' (galettes de viande hachée frites) et aux 'taiyaki' (gâteaux en forme de poisson fourrés), des délices de street food."
+        },
+        {
+          "symbole": "🐱",
+          "titre": "Amis félins",
+          "texte": "Yanaka est réputé pour ses nombreux chats errants. Soyez attentifs, ils sont partout et ajoutent au charme du quartier, souvent très photogéniques."
+        }
+      ]
+    },
+    {
+      "jour": 12,
+      "symbole": "🎬",
+      "titre": "Magie Ghibli et Ambiance Bohème à Kichijoji",
+      "legende": "Plongez dans l'univers onirique des studios Ghibli (sous réserve de billets) pour une expérience enchantée. Ensuite, explorez Kichijoji, un quartier résidentiel prisé, connu pour son parc Inokashira et son ambiance décontractée. Une journée entre fantaisie et douceur de vivre, loin de l'agitation du centre-ville.",
+      "lieu": "Mitaka & Kichijoji, Tokyo",
+      "activites": [
+        "✨ <strong>Musée Ghibli (Mitaka)</strong>: Entrez dans le monde merveilleux de Hayao Miyazaki et de ses créations. Ce musée unique offre une immersion ludique et artistique, mais les billets doivent être réservés des mois à l'avance et sont très demandés.",
+        "🌳 <strong>Parc Inokashira et Kichijoji</strong>: Si vous n'avez pas de billets Ghibli ou après votre visite, promenez-vous dans le grand parc Inokashira. Ensuite, explorez les rues commerçantes de Kichijoji, réputé pour ses boutiques indépendantes, ses cafés branchés et son ambiance bohème."
+      ],
+      "illustration": "jour12.jpg",
+      "encarts": [
+        {
+          "symbole": "🎟️",
+          "titre": "Billets Ghibli",
+          "texte": "Les billets pour le Musée Ghibli sont extrêmement difficiles à obtenir. Ils sont mis en vente le 10 du mois précédent la visite et partent en quelques minutes. Préparez-vous à réserver dès l'ouverture des ventes."
+        },
+        {
+          "symbole": "🛍️",
+          "titre": "Shopping alternatif",
+          "texte": "Kichijoji offre une alternative intéressante aux grands centres commerciaux, avec des boutiques plus petites et des articles uniques, souvent artisanaux ou de créateurs."
+        }
+      ]
+    },
+    {
+      "jour": 13,
+      "symbole": "🚃",
+      "titre": "Shibamata et Koenji : Tokyo Authentique et Underground",
+      "legende": "Découvrez deux facettes contrastées de Tokyo. D'abord, Shibamata, un quartier qui a conservé le charme du Japon d'après-guerre, puis Koenji, le repaire de la culture punk et alternative. Une journée pour explorer des ambiances uniques, loin des sentiers battus touristiques, pour une immersion profonde.",
+      "lieu": "Shibamata & Koenji, Tokyo",
+      "activites": [
+        "🎞️ <strong>Shibamata Taishakuten et rue Sando</strong>: Voyagez dans le temps à Shibamata, un quartier célèbre pour son temple Taishakuten et sa rue commerçante Sando, où l'atmosphère des années Showa est encore palpable. C'est un lieu cher aux Tokyoïtes pour son authenticité.",
+        "🎸 <strong>Koenji : Culture alternative et vintage</strong>: Plongez dans l'ambiance bohème et punk de Koenji. Explorez ses friperies, ses boutiques de disques, ses petits bars et ses galeries d'art indépendantes. Un quartier vibrant et créatif, idéal pour une soirée décontractée."
+      ],
+      "illustration": "jour13.jpg",
+      "encarts": [
+        {
+          "symbole": "🎬",
+          "titre": "Culture populaire",
+          "texte": "Shibamata est le cadre de la célèbre série de films 'Otoko wa Tsurai yo' (Tora-san). Le musée Tora-san est une visite intéressante pour les fans de cinéma japonais."
+        },
+        {
+          "symbole": "🎶",
+          "titre": "Musique live",
+          "texte": "Koenji est réputé pour ses nombreux 'live houses' (salles de concert) et bars où l'on peut écouter de la musique indépendante. Idéal pour les amateurs de rock ou de punk."
+        }
+      ]
+    },
+    {
+      "jour": 14,
+      "symbole": "🔭",
+      "titre": "Shimokitazawa et Coucher de Soleil sur Tokyo",
+      "legende": "Explorez Shimokitazawa, le quartier branché et bohème de Tokyo, connu pour ses friperies, ses cafés indépendants et son ambiance artistique. Terminez la journée en beauté avec une vue imprenable sur le coucher de soleil depuis le Shibuya Sky, offrant un panorama à couper le souffle sur la mégalopole. Une journée entre culture underground et splendeur urbaine.",
+      "lieu": "Shimokitazawa & Shibuya, Tokyo",
+      "activites": [
+        "👖 <strong>Shimokitazawa : Boutiques vintage et cafés</strong>: Flânez dans les ruelles de Shimokitazawa, un quartier populaire auprès des jeunes pour ses boutiques de vêtements de seconde main, ses disquaires et ses cafés cosy. C'est l'endroit parfait pour chiner et se détendre.",
+        "🌇 <strong>Shibuya Sky : Vue panoramique au coucher du soleil</strong>: Montez au sommet du Shibuya Scramble Square pour une expérience inoubliable au Shibuya Sky. Admirez le coucher de soleil sur Tokyo, avec le célèbre carrefour et les gratte-ciel s'illuminant progressivement."
+      ],
+      "illustration": "jour14.jpg",
+      "encarts": [
+        {
+          "symbole": "☕",
+          "titre": "Pause Café",
+          "texte": "Shimokitazawa regorge de cafés indépendants avec des ambiances uniques. Prenez le temps de vous y arrêter pour une boisson et une pâtisserie, loin des chaînes habituelles."
+        },
+        {
+          "symbole": "🎟️",
+          "titre": "Shibuya Sky Réservation",
+          "texte": "Réservez vos billets pour Shibuya Sky bien à l'avance, surtout si vous visez le créneau du coucher de soleil. Les places sont limitées et très prisées."
+        }
+      ]
+    },
+    {
+      "jour": 15,
+      "symbole": "🗼",
+      "titre": "Roppongi : Art, Nuit et Vue sur la Tour de Tokyo",
+      "legende": "Découvrez Roppongi, un quartier cosmopolite connu pour ses musées d'art, sa vie nocturne animée et ses vues emblématiques. Terminez la journée par une ascension de la Tokyo Tower, offrant un panorama classique sur la ville, particulièrement magique la nuit. Une journée entre culture et lumières urbaines, pour une immersion complète.",
+      "lieu": "Roppongi, Tokyo",
+      "activites": [
+        "🖼️ <strong>Roppongi Hills et Mori Art Museum</strong>: Explorez le complexe de Roppongi Hills, abritant le Mori Art Museum au 53ème étage de la Mori Tower. Profitez d'expositions d'art contemporain et d'une vue imprenable sur la ville depuis le Tokyo City View.",
+        "🗼 <strong>Tokyo Tower</strong>: Montez à la Tokyo Tower, inspirée de la Tour Eiffel. Ses plateformes d'observation offrent une vue classique et romantique sur la ville, surtout lorsque les lumières s'allument au crépuscule, créant une ambiance féerique."
+      ],
+      "illustration": "jour15.jpg",
+      "encarts": [
+        {
+          "symbole": "🌃",
+          "titre": "Vie Nocturne",
+          "texte": "Roppongi est un quartier très animé la nuit, avec de nombreux bars et clubs. Soyez vigilant et préférez les établissements réputés pour votre sécurité."
+        },
+        {
+          "symbole": "💡",
+          "titre": "Alternative",
+          "texte": "Si vous avez déjà fait Shibuya Sky, la Tokyo Tower offre une perspective différente et plus 'rétro' sur la ville. Le Tokyo City View de Roppongi Hills est aussi une excellente option."
+        }
+      ]
+    },
+    {
+      "jour": 16,
+      "symbole": "🌸",
+      "titre": "Nezu et Rikugien : Sérénité et Beauté Classique",
+      "legende": "Plongez dans la sérénité des jardins traditionnels et des sanctuaires paisibles de Tokyo. Visitez le magnifique sanctuaire de Nezu, réputé pour ses torii rouges, puis détendez-vous dans les paysages raffinés du jardin Rikugien. Une journée pour apprécier la beauté intemporelle du Japon, loin de l'agitation urbaine.",
+      "lieu": "Bunkyo, Tokyo",
+      "activites": [
+        "⛩️ <strong>Sanctuaire Nezu</strong>: Explorez ce sanctuaire shintoïste moins connu mais magnifique, célèbre pour son tunnel de torii rouges miniatures et son ambiance paisible. C'est un joyau caché, particulièrement beau au printemps avec ses azalées.",
+        "🌿 <strong>Jardin Rikugien</strong>: Promenez-vous dans l'un des plus beaux jardins paysagers de l'époque Edo à Tokyo. Conçu comme une représentation miniature de scènes poétiques, il offre des paysages variés et des points de vue pittoresques, invitant à la contemplation."
+      ],
+      "illustration": "jour16.jpg",
+      "encarts": [
+        {
+          "symbole": "📸",
+          "titre": "Photographie",
+          "texte": "Le tunnel de torii du sanctuaire Nezu offre une opportunité de photo unique, similaire à Fushimi Inari-taisha à Kyoto mais en plus petit et moins fréquenté."
+        },
+        {
+          "symbole": "🍵",
+          "titre": "Pause Thé",
+          "texte": "Dans le jardin Rikugien, il y a une maison de thé où vous pouvez faire une pause et déguster un matcha tout en admirant le paysage, pour une expérience authentique."
+        }
+      ]
+    },
+    {
+      "jour": 17,
+      "symbole": "🛍️",
+      "titre": "Journée Libre : Shopping, Détente ou Exploration Personnelle",
+      "legende": "Profitez de cette journée pour revisiter vos quartiers préférés, faire du shopping de dernière minute, ou explorer un coin de Tokyo qui vous a particulièrement intrigué. C'est l'occasion de vous approprier la ville à votre rythme, sans contraintes d'itinéraire, et de laisser libre cours à vos envies du moment.",
+      "lieu": "Tokyo",
+      "activites": [
+        "🛒 <strong>Shopping de souvenirs ou exploration libre</strong>: Rendez-vous dans les grands magasins de Shinjuku ou Ginza, les boutiques excentriques de Harajuku, ou les marchés locaux pour des souvenirs. Ou bien, choisissez un quartier que vous avez aimé et approfondissez votre découverte.",
+        "🍜 <strong>Dégustation culinaire ou café thématique</strong>: Profitez-en pour goûter un plat que vous n'avez pas encore essayé, ou visitez un café thématique (chat, hibou, robot) pour une expérience amusante et typiquement japonaise, souvent insolite."
+      ],
+      "illustration": "jour17.jpg",
+      "encarts": [
+        {
+          "symbole": "💡",
+          "titre": "Idées",
+          "texte": "Pensez à visiter un onsen (bain thermal) urbain pour une expérience de détente typiquement japonaise, ou un karaoké pour une soirée amusante entre amis."
+        },
+        {
+          "symbole": "🎁",
+          "titre": "Derniers achats",
+          "texte": "Les grands magasins comme Isetan, Takashimaya ou Tokyu Hands sont parfaits pour trouver des cadeaux uniques et des produits japonais de qualité, du design à la papeterie."
+        }
+      ]
+    },
+    {
+      "jour": 18,
+      "symbole": "🧘",
+      "titre": "Culture, Détente et Derniers Instants",
+      "legende": "Pour cette avant-dernière journée, choisissez entre une immersion culturelle dans un musée, une balade relaxante ou la découverte d'un quartier moins connu. Profitez des derniers moments pour vous imprégner de l'ambiance tokyoïte et savourer la cuisine locale. Une journée douce avant le départ, pour faire le plein de souvenirs.",
+      "lieu": "Tokyo",
+      "activites": [
+        "🎨 <strong>Musée d'Art de Tokyo ou Musée National de la Nature et des Sciences (Ueno)</strong>: Si vous avez manqué certains musées ou souhaitez approfondir un thème, c'est l'occasion. Le Musée d'Art de Tokyo propose souvent des expositions temporaires captivantes.",
+        "🚶‍♂️ <strong>Promenade à Koishikawa Korakuen Garden</strong>: Ce jardin traditionnel est l'un des plus anciens et des plus beaux de Tokyo. Il offre une échappée paisible et des paysages magnifiques, parfaits pour une dernière balade zen et contemplative."
+      ],
+      "illustration": "jour18.jpg",
+      "encarts": [
+        {
+          "symbole": "📚",
+          "titre": "Culture",
+          "texte": "Tokyo regorge de musées pour tous les goûts, du Musée National de Tokyo pour l'histoire à des musées plus insolites comme le Musée du Parachute ou le Musée du Ramen."
+        },
+        {
+          "symbole": "🎁",
+          "titre": "Achats de dernière minute",
+          "texte": "Les konbini (supérettes) sont parfaits pour les petits snacks et boissons à emporter, et on y trouve aussi des souvenirs originaux et pratiques."
+        }
+      ]
+    },
+    {
+      "jour": 19,
+      "symbole": "🛫",
+      "titre": "Départ de Tokyo",
+      "legende": "C'est le jour du départ. Après 18 jours d'aventures et de découvertes, il est temps de quitter la vibrante Tokyo. Profitez d'un dernier petit-déjeuner japonais, faites vos dernières emplettes à l'aéroport et emportez avec vous des souvenirs inoubliables de ce voyage au pays du Soleil-Levant, la tête pleine d'images et de saveurs.",
+      "lieu": "Tokyo",
+      "activites": [
+        "🛫 <strong>Transfert vers l'aéroport et vol retour</strong>: Selon l'heure de votre vol, prenez le temps de savourer un dernier repas ou de faire quelques achats de dernière minute à l'aéroport avant d'embarquer pour votre vol retour vers Paris."
+      ],
+      "illustration": "jour19.jpg",
+      "encarts": [
+        {
+          "symbole": "🛍️",
+          "titre": "Duty-Free",
+          "texte": "Les aéroports de Narita et Haneda proposent un large choix de boutiques duty-free pour acheter des spécialités japonaises et des souvenirs de dernière minute, souvent à des prix intéressants."
+        },
+        {
+          "symbole": "🧳",
+          "titre": "Bagages",
+          "texte": "Pensez à vérifier les restrictions de poids et de taille de vos bagages avant de vous rendre à l'aéroport pour éviter les mauvaises surprises et les frais supplémentaires."
+        }
+      ]
+    }
+  ],
+  "detail_budget": [
+    {
+      "titre": "Budget vol:",
+      "legende": "1200€/pers (Vol A/R Paris-Tokyo, classe économique, réservation anticipée)",
+      "symbole": "🛬"
+    },
+    {
+      "titre": "Budget transports:",
+      "legende": "320€/pers (Tokyo Metro Pass, Suica/Pasmo, Hakone Free Pass)",
+      "symbole": "🚆"
+    },
+    {
+      "titre": "Budget repas:",
+      "legende": "1260€/pers (70€/jour pour 18 jours, mix restaurants et street food)",
+      "symbole": "🥗"
+    },
+    {
+      "titre": "Budget logement:",
+      "legende": "2160€/pers (120€/nuit pour 18 nuits, hôtel 3 étoiles)",
+      "symbole": "🛏️"
+    },
+    {
+      "titre": "Budget activités:",
+      "legende": "400€/pers (Entrées musées, temples, observatoires, Hakone, Ghibli si possible)",
+      "symbole": "🎭"
+    }
+  ],
+  "periodes_ideales": [
+    {
+      "titre": "Les périodes idéales pour ce séjour sont les mois de mars-avril (floraison des cerisiers) et octobre-novembre (feuilles d'automne).",
+      "symbole": "🍁"
+    }
+  ],
+  "infos_pratiques": [
+    {
+      "titre": "Passeport valide requis. Pour les séjours de moins de 90 jours, pas de visa pour les citoyens français.",
+      "symbole": "📄"
+    },
+    {
+      "titre": "La monnaie est le Yen japonais (JPY). Les cartes de crédit sont acceptées dans la plupart des grands magasins et restaurants, mais prévoyez du liquide pour les petits commerces et les temples.",
+      "symbole": "💳"
+    },
+    {
+      "titre": "Le japonais est la langue officielle. Apprendre quelques phrases de base (bonjour, merci) est très apprécié. Dans les grandes villes, l'anglais est souvent parlé dans les zones touristiques.",
+      "symbole": "🗣️"
+    },
+    {
+      "titre": "Une carte SIM locale ou une location de pocket WiFi est fortement recommandée pour rester connecté et utiliser les applications de transport (Google Maps est indispensable).",
+      "symbole": "📶"
+    }
+  ],
+  "liens_utiles": [
+    {
+      "legende": "Infos officielles et inspirations",
+      "titre": "Tourisme Tokyo",
+      "url": "https://www.gotokyo.org/fr/index.html",
+      "symbole": "📘"
+    },
+    {
+      "legende": "Horaires et plans des transports",
+      "titre": "Tokyo Metro",
+      "url": "https://www.tokyometro.jp/en/",
+      "symbole": "🚆"
+    },
+    {
+      "legende": "Prévisions météo détaillées",
+      "titre": "Météo Japon (JMA)",
+      "url": "https://www.jma.go.jp/jma/indexe.html",
+      "symbole": "🌤️"
+    }
+  ]
+}
